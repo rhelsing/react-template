@@ -1,4 +1,4 @@
-#Ryan's React Template
+# Ryan's React Template
 
 * create-react-app Base
 * Redux + Other Dependencies
@@ -66,7 +66,7 @@ TODO:
 * https://github.com/blog/2412-learn-graphql-with-github
 * https://www.youtube.com/watch?v=UBGzsb2UkeY
 
-#To Deploy:
+# To Deploy:
 Create:
 ```
 s3-website create [name-of-site]
