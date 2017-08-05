@@ -29,8 +29,9 @@ TODO:
     "axios": "^0.16.2",
     "lodash": "^3.10.1",
 
+* Attempt: auth, chat (socket action cable), file upload, communicate with api/graphql (Rails) (http://graphql.org/learn/)
+* RallyCoding, Avdanced, GraphQL
 * CSS Sort out
-* Security, auth, communicate with api/graphql (http://graphql.org/learn/)
 * https://medium.com/@DrawandCode/building-a-graphql-api-in-rails-part-1-a40aaf7e165f
 * SSL Deploy
 * https://facebook.github.io/react/docs/installation.html
