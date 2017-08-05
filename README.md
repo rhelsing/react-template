@@ -1,6 +1,7 @@
 #Ryan's React Template
 
-* FB CreateReact Base
+* create-react-app Base
+* Redux + Other Dependencies
 * Organized src/
   * components
   * containers
@@ -8,19 +9,31 @@
   * reducers
   * services (for live reloading)
   * index.js
+* s3-website for quick initial deploy (See below)
 
 
-run:
+run locally:
 ```
 yarn install && yarn start
 ```
 
-To install still:
+Yet to install:
 "react-redux": "4.3.0",
-    "react-router": "^2.0.1",
-    "react-router-dom": "^4.0.0",
-    "redux": "^3.0.4",
-    "redux-form": "^6.6.3",
-    "redux-promise": "^0.5.3"
-    "axios": "^0.16.2",
-    "lodash": "^3.10.1",
+"react-router": "^2.0.1",
+"react-router-dom": "^4.0.0",
+"redux": "^3.0.4",
+"redux-form": "^6.6.3",
+"redux-promise": "^0.5.3"
+"axios": "^0.16.2",
+"lodash": "^3.10.1",
+
+#To Deploy:
+Create:
+```
+s3-website create [name-of-site]
+```
+Update:
+```
+yarn build
+s3-website deploy build
+```
